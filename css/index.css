@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+.box {
+    width: 200px;
+    height: 100px;
+    cursor: move;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    background-color: #FFF;
+    border: 1px solid #CCCCCC;
+    -webkit-box-shadow: 10px 10px 25px #ccc;
+    -moz-box-shadow: 10px 10px 25px #ccc;
+    box-shadow: 10px 10px 25px #ccc;
+}
+.coor {
+    width: 10px;
+    height: 10px;
+    overflow: hidden;
+    cursor: se-resize;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #09C;
+}
+.closeBox{
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.closeBox:hover{
+    background: url(../images/clear.png) no-repeat;
+    cursor: pointer;
+}
+body {
+    background-color: #F3F3F3;
+}
